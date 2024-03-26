@@ -729,3 +729,49 @@ footer span a:hover {
     width: 250px;
   }
 }
+
+
+
+/* ***************************************************************************************************updated */
+/* for the buttons in project card */
+
+
+
+
+/* Style for button with class "button" */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #333;
+  color: #f31313;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style for button with class "button-primary" */
+.button-primary {
+  background-color: #f31313;
+  color: #fff;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #fff;
+  color: #f31313;
+}
+
+/* Style for button section */
+.button-section {
+  text-align: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .button {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
