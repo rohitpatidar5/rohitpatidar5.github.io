@@ -749,6 +749,7 @@ footer span a:hover {
   font-size: 16px;
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
+  border-radius: 8px;
 }
 
 /* Style for button with class "button-primary" */
